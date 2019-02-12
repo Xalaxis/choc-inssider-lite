@@ -9,23 +9,25 @@
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>inssider-lite.install</title>
-    <authors>Metageek LLC</authors>
+    <authors>Metageek LLC.</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
+    <projectUrl>https://www.metageek.com/products/inssider/</projectUrl>
     <iconUrl>https://gitcdn.xyz/repo/Xalaxis/choc-inssider-lite/master/icons/inSSIDer.png</iconUrl>
-    <!-- <copyright>Year Software Vendor</copyright> -->
+    <copyright>2019 MetaGeek LLC.</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <licenseUrl>https://www.metageek.com/legal/eula/inssider/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>inssider-lite SPACE_SEPARATED</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->      
+    <docsUrl>https://support.metageek.com/hc/en-us/categories/200038925-inSSIDer</docsUrl>
+    <tags>inssider-lite</tags>
+    <summary>Wi-Fi Analysis for small networks</summary>
+    <description>inSSIDer: Visualize Your WiFi Environment
+
+Every WiFi network faces WiFi problems. And diagnosing and fixing those problems is difficult when you can't see them. inSSIDer gives you the insight you need to visualize your WiFi environment and discover conflicts, so you can create and maintain awesome WiFi for even the most demanding users.
+
+---
+
+Online account required for use.</description>
+    <!-- <releaseNotes>Initial release</releaseNotes> -->
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

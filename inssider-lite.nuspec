@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -6,32 +6,25 @@
     <version>1.2.11</version>
     <packageSourceUrl>https://github.com/Xalaxis/choc-inssider-lite</packageSourceUrl>
     <owners>Matthew Wolffsohn</owners>
-    <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <!-- This section is about the software itself -->
     <title>inssider-lite.install</title>
     <authors>Metageek LLC.</authors>
-    <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.metageek.com/products/inssider/</projectUrl>
     <iconUrl>https://gitcdn.xyz/repo/Xalaxis/choc-inssider-lite/master/icons/inSSIDer.png</iconUrl>
     <copyright>2019 MetaGeek LLC.</copyright>
-    <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.metageek.com/legal/eula/inssider/</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://support.metageek.com/hc/en-us/categories/200038925-inSSIDer</docsUrl>
     <tags>inssider-lite</tags>
     <summary>Wi-Fi Analysis for small networks</summary>
     <description>inSSIDer: Visualize Your WiFi Environment
 
-Every WiFi network faces WiFi problems. And diagnosing and fixing those problems is difficult when you can't see them. inSSIDer gives you the insight you need to visualize your WiFi environment and discover conflicts, so you can create and maintain awesome WiFi for even the most demanding users.
+    Every WiFi network faces WiFi problems. And diagnosing and fixing those problems is difficult when you can't see them. inSSIDer gives you the insight you need to visualize your WiFi environment and discover conflicts, so you can create and maintain awesome WiFi for even the most demanding users.
 
----
+    ---
 
-Online account required for use.</description>
-    <!-- <releaseNotes>Initial release</releaseNotes> -->
+    Online account required for use.</description>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>

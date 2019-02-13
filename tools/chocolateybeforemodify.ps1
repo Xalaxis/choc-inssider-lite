@@ -1,1 +1,1 @@
-﻿Stop-Process -Name inSSIDer
+﻿Get-Process -Name "inSSIDer" -ErrorAction SilentlyContinue | Stop-Process -Force -PassThru

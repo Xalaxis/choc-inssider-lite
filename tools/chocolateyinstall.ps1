@@ -15,5 +15,17 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Start-Sleep -Seconds 3 # Wait three seconds
+
+$started = $false
+# Wait for process to start
+Do {
+
+    $status = Get-Process -Name inSSIDer -ErrorAction SilentlyContinue
+
+    If (!($status)) {Start-Sleep -Seconds 1 }
+    
+    Else {$started = $true}
+
+}
+Until ( $started )
 Stop-Process -Name inSSIDer # Then kill process so main window doesn't open 

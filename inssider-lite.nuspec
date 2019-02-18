@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>inssider-lite</id>
-    <version>1.2.11</version>
+    <version>1.2.11.20190218</version>
     <packageSourceUrl>https://github.com/Xalaxis/choc-inssider-lite</packageSourceUrl>
     <owners>Matthew Wolffsohn</owners>
     <title>inssider-lite.install</title>
